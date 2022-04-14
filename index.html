@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum Gothic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Paula Quintero - Resume</title>
+  </head>
+  <body>
+    <main>
+      <!--Photo, download and resume-->
+      <section id="introduction" style="margin-bottom: auto">
+        <div id="photo">
+          <img src="./Photo.jpeg" alt="Paula Quintero's Photo" />
+          <h2>Paula A. Quintero</h2>
+        </div>
+      </section>
+      <section>
+        <div class="buttons">
+          <a href="./Resume_Paula Q.pdf" download="My resume">
+            <button id="resume" alt="My resume">Resume</button>
+          </a>
+          <button id="contact">Contact Me</button>
+        </div>
+      </section>
+
+      <!--Honesty and basic info-->
+      <section id="honestyDeclaration" style="margin-bottom: auto">
+        <table border="0" id="infoTab">
+          <tbody>
+            <tr>
+              <th
+                colspan="1"
+                style="
+                  font-size: 30px;
+                  width: 300px;
+                  height: 50px;
+                  font-weight: bolder;
+                "
+              >
+                Honesty Statement
+              </th>
+              <th
+                colspan="2"
+                style="
+                  font-size: 30px;
+                  width: 300px;
+                  height: 50px;
+                  font-weight: bolder;
+                  padding-left: 20px;
+                "
+              >
+                Basic Information
+              </th>
+            </tr>
+
+            <tr>
+              <th rowspan="6" style="font-size: 18px; font-weight: lighter">
+                <p>
+                  I declare that my assessment is wholly my own work in
+                  accordance with Seneca Academic Policy. No part of this
+                  assessment has been copied manually or electronically from any
+                  other source (including web sites) except for the information
+                  supplied by the WEB222 instructors and / or made available in
+                  this assessment for my use. I also declare that no part of
+                  this assignment has been distributed to other students.
+                </p>
+              </th>
+              <th style="padding-left: 20px">Age:</th>
+              <th style="font-size: 18px; font-weight: lighter">27</th>
+            </tr>
+            <tr>
+              <th style="padding-left: 20px">Mail:</th>
+              <th style="font-size: 18px; font-weight: lighter">
+                paquintero-celis@myseneca.ca
+              </th>
+            </tr>
+            <tr>
+              <th style="padding-left: 20px">Languages:</th>
+              <th style="font-size: 18px; font-weight: lighter">
+                English, Spanish, French, Portuguese
+              </th>
+            </tr>
+            <tr>
+              <th style="padding-left: 20px">Class Section:</th>
+              <th style="font-size: 18px; font-weight: lighter">WEB222 ZBB</th>
+            </tr>
+            <tr>
+              <th style="padding-left: 20px">Student ID:</th>
+              <th style="font-size: 18px; font-weight: lighter">132202219</th>
+            </tr>
+            <tr>
+              <th style="padding-left: 20px">Instructor:</th>
+              <th style="font-size: 18px; font-weight: lighter">
+                Noman Antique
+              </th>
+            </tr>
+            <tr colspan="3">
+              <th style="font-size: 18px; font-weight: lighter">
+                Date: April 13, 2022
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!--Education-->
+      <div id="education">
+        <h2 id="titleEdu"style="text-align: center; margin-top: 2px; padding-top: 20px">
+          Education
+        </h2>
+        <table>
+          <tr id="edu">
+            <th>
+              <span id="TableHeading">Diploma</span><br /><span id="field">
+                2021 - present</span
+              >
+            </th>
+            <td>
+              <br /><span id="field"> Computer Programming</span><br /><span
+                id="school"
+              >
+                Seneca College</span
+              ><br />
+            </td>
+          </tr>
+          <tr id="edu">
+            <th>
+              <span id="TableHeading">Master</span><br /><span id="field">
+                2018 - 2022</span
+              >
+            </th>
+            <td id="edu">
+              <br /><span id="field"> Education</span><br /><span id="school">
+                Andes University</span
+              ><br />
+            </td>
+          </tr id="edu">
+          <tr>
+            <th>
+              <span id="TableHeading">Bachelor Degree</span><br /><span
+                id="field"
+              >
+                2011 - 2016</span
+              >
+            </th>
+            <td>
+              <br /><span id="field"> Social Communication</span><br /><span
+                id="school"
+              >
+                Javeriana University</span
+              ><br />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!--Contact Me-->
+      <section id="contactmeform">
+        <h3 style="text-align: center; margin-top: 2px; padding-top: 20px"></h3>
+        <p>Contact me</p>
+
+        <!--Submit form-->
+        <form id="contactme-" action="https://httpbin.org/post" method="POST">
+          <div class="fillup-form">
+            <label
+              for="Name"
+              style="font-size: 20px; font-weight: bolder; margin-top: 0px"
+              >Name</label
+            >
+            <input
+              class="form-control"
+              id="Name"
+              type="text"
+              placeholder="Full Name"
+              autocomplete="given-name"
+              required
+              tabindex="1"
+            />
+          </div>
+
+          <div class="fillup-form">
+            <label
+              for="Email"
+              style="font-size: 20px; font-weight: bolder; margin-top: 0px"
+              >Email</label
+            >
+            <input
+              id="Email"
+              type="email"
+              placeholder="yourmail@mail.com"
+              required
+              tabindex="2"
+            />
+          </div>
+
+          <div class="fillup-form">
+            <label
+              for="Address"
+              style="font-size: 20px; font-weight: bolder; margin-top: 0px"
+              >Address</label
+            >
+            <input
+              id="Address"
+              type="txt"
+              placeholder="Address"
+              required
+              tabindex="3"
+            />
+          </div>
+
+          <div class="fillup-form">
+            <label
+              for="PostalCode"
+              style="font-size: 20px; font-weight: bolder; margin-top: 0px"
+              >PostalCode</label
+            >
+            <input
+              id="postal-code"
+              type="txt"
+              placeholder="Postal Code"
+              required
+              tabindex="4"
+            />
+          </div>
+
+          <div class="fillup-form">
+            <label
+              for="State"
+              style="
+                font-size: 20px;
+                font-weight: bolder;
+                height: 5px;
+                margin-top: 0px;
+              "
+              >State</label
+            >
+            <select
+              class="form-froup"
+              name="state"
+              id="state"
+              autocomplete="address-level1"
+              tabindex="6"
+              required
+              style="
+                font-size: 14px;
+                font-weight: lighter;
+                width: 165px;
+                height: 25px;
+                margin-top: 1px;
+              "
+            >
+              <option>Ontario</option>
+              <option>Quebec</option>
+              <option>Nova Scotia</option>
+              <option>New Brunswick</option>
+              <option>Manitoba</option>
+              <option>British Colombia</option>
+              <option>Prince Edward Island</option>
+              <option>Saskatchewan</option>
+              <option>Alberta</option>
+              <option>Newfoundland and Labrador</option>
+            </select>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input
+              class="option1"
+              type="radio"
+              id="options-question"
+              name="options"
+              value="question"
+              tabindex="6"
+              checked
+              style="padding-right: 10px"
+            />
+            <label
+              class="option2"
+              for="options-question"
+              style="
+                font-size: 18px;
+                font-weight: lighter;
+                margin: 0px;
+                padding: 0px;
+              "
+              >Question</label
+            >
+            <input
+              class="option3"
+              type="radio"
+              id="options-comment"
+              name="options"
+              value="comment"
+              tabindex="7"
+            />
+            <label
+              class="option4"
+              for="options-comment"
+              style="
+                font-size: 18px;
+                font-weight: lighter;
+                margin: 0px;
+                padding: 0px;
+              "
+              >Comment</label
+            >
+            <input
+              class="form-check-input"
+              type="radio"
+              id="options-hiring"
+              name="options"
+              value="hiring"
+              tabindex="8"
+            />
+            <label
+              class="form-check-label"
+              for="options-hiring"
+              style="
+                font-size: 18px;
+                font-weight: lighter;
+                margin: 0px;
+                padding: 0px;
+              "
+              >Hiring</label
+            >
+          </div>
+
+          <div class="form-check form-check-inline">
+            <label
+              class="wage1"
+              for="options-question"
+              style="
+                font-size: 18px;
+                font-weight: lighter;
+                margin: 0px;
+                padding-left: 20px;
+                text-align: right;
+                visibility: hidden;
+              "
+              >HourlyRate*</label
+            >
+            <input
+              class="wage2"
+              type="number"
+              name="salary"
+              id="salary"
+              placeholder="Hourly Rate"
+              tabindex="9"
+              checked
+              style="padding-right: 10px; visibility: hidden"
+            />
+          </div>
+
+          <div>
+            <label
+              for="description"
+              class="form-label"
+              style="
+                font-size: 20px;
+                display: flex;
+                text-align: left;
+                padding-bottom: 35px;
+                padding-left: 170px;
+              "
+              >Message</label
+            >
+            <div>
+              <textarea
+                id="description"
+                name="description"
+                class="form-control"
+                tabindex="9"
+                required
+                rows="5"
+                style="width: 560px; height: 100px"
+              ></textarea>
+            </div>
+          </div>
+
+          <input
+            class="btn1"
+            type="submit"
+            value="Submit"
+            name="submit"
+            id="submit"
+            tabindex="10"
+          />
+          <input
+            class="btn2"
+            type="reset"
+            value="Reset"
+            name="clear"
+            id="reset"
+            tabindex="11"
+          />
+        </form>
+      </section>
+    </main>
+    <script type="text/javascript" src="./Interactive.js"></script>
+  </body>
+</html>

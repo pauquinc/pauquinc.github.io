@@ -1,0 +1,114 @@
+html {
+  text-align: center;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1100px;
+  margin-left: 45px;
+  margin-right: 25px;
+}
+
+body {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+#photo > img {
+  padding-top: 90px;
+  width: 300px;
+}
+
+body {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+#infoTab {
+  font-family: "Nanum Gothic", sans-serif;
+  table-layout: fixed;
+  width: 800px;
+  border: none;
+  margin: auto;
+  padding: 10px 25px;
+}
+
+#honestyDeclaration {
+  font-family: "playfair display";
+  margin-top: 20px;
+  background-color: rgba(217, 217, 231, 0.91);
+  text-align: left;
+}
+#titleEdu h2 {
+  font-family: "Playfair display";
+}
+
+#contactmeform {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 28px;
+  background-color: rgba(217, 217, 231, 0.91);
+  text-align: center;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  height: 25px;
+  line-height: 75px;
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 1px;
+}
+#TableHeading {
+  font-size: 1em;
+}
+#education {
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: rgba(217, 217, 231, 0.91);
+  text-align: left;
+}
+
+#education th {
+  border-collapse: collapse;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: white;
+  padding: 5px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  width: 200px;
+  height: 90px;
+  text-align: center;
+}
+
+#education table {
+  table-layout: fixed;
+  width: 900px;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 5px;
+  margin-left: 120px;
+}
+#education tr {
+  font-family: "playfair display";
+  padding-top: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+#field {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1em;
+  margin-left: 30px;
+}
+
+#school {
+  font-family: "Nanum Gothic", sans-serif;
+  color: grey;
+  font-size: 0.9em;
+  margin-left: 30px;
+}
